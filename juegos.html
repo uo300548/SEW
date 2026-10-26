@@ -1,0 +1,196 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026: Juegos</title>
+
+    <meta name="author" content="Rodrigo García López" />
+    <meta name="description" content="Documento juegos.html del proyecto LaVuelta2026" />
+   
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+   <header>
+      <h1><a href="index.html">LaVuelta2026</a></h1>
+      <nav>
+         <a href="index.html" title="Página principal del proyecto">Inicio</a>
+         <a href="ciclista.html" title="Información del ciclista destacado">Ciclista</a>
+         <a href="equipo.html" title="Detalles del equipo participante">Equipo</a>
+         <a href="etapa.html" title="Datos de la etapa">Etapa</a>
+         <a href="meteorologia.html" title="Pronóstico meteorológico de la carrera">Meteorología</a>
+         <a href="clasificaciones.html" title="Clasificaciones generales y por etapa">Clasificaciones</a>
+         <a href="juegos.html" title="Juego del proyecto" aria-current="page">Juegos</a>
+         <a href="ayuda.html" title="Página de ayuda e información adicional">Ayuda</a>
+      </nav>
+   </header>
+   <nav aria-label="migas">
+      <ol>
+         <li><a href="index.html">Inicio >></a></li>
+         <li>Juegos</li>
+      </ol>
+   </nav>
+   <main>
+      <h2>Juegos</h2>
+      <h3>¿Conoces la etapa?</h3>
+      <p>Este juego consta de 10 preguntas sobre la información de la etapa. Para jugar, consulta los datos y detalles de la etapa disponibles en la web.</p>
+      <form>
+         <fieldset>
+            <legend>El Puerto de Santa María a Jerez de la Frontera </legend>
+            <p>
+               <label for="numeroEtapa">¿Qué número de etapa es la que aparece en el documento XML?</label>
+               <input type="number" id="numeroEtapa" min="1" max="21" />
+            </p>
+            <p>
+               <label for="fechaEtapa">¿En qué fecha se celebró la etapa?</label>
+               <input type="date" id="fechaEtapa" />
+            </p>
+            <p>
+               <label for="salidaEtapa">¿Cuál fue el lugar de salida de la etapa?</label>
+               <select id="salidaEtapa">
+                  <option value="">Seleccione una opción</option>
+                  <option value="albacete">Albacete</option>
+                  <option value="alcaudete">Alcaudete</option>
+                  <option value="alcoy">Alcoy</option>
+                  <option value="almeria">Almería</option>
+                  <option value="andujar">Andújar</option>
+                  <option value="barcelona">Barcelona</option>
+                  <option value="bielsa">Bielsa</option>
+                  <option value="brihuega">Brihuega</option>
+                  <option value="caceres">Cáceres</option>
+                  <option value="caminreal">Caminreal</option>
+                  <option value="cordoba">Córdoba</option>
+                  <option value="elpuerto">El Puerto de Santa María</option>
+                  <option value="figueres">Figueres</option>
+                  <option value="granada">Granada</option>
+                  <option value="huelva">Huelva</option>
+                  <option value="jerez">Jerez de la Frontera</option>
+                  <option value="linares">Linares</option>
+                  <option value="madrid">Madrid</option>
+                  <option value="malaga">Málaga</option>
+                  <option value="murcia">Murcia</option>
+                  <option value="oviedo">Oviedo</option>
+                  <option value="pamplona">Pamplona</option>
+                  <option value="pontevedra">Pontevedra</option>
+                  <option value="santander">Santander</option>
+                  <option value="sevilla">Sevilla</option>
+                  <option value="soria">Soria</option>
+                  <option value="valencia">Valencia</option>
+                  <option value="valladolid">Valladolid</option>
+                  <option value="vigo">Vigo</option>
+                  <option value="zaragoza">Zaragoza</option>
+               </select>
+            </p>
+            <p>
+               <label for="llegadaEtapa">¿Cuál fue el lugar de llegada de la etapa?</label>
+               <select id="llegadaEtapa">
+                  <option value="">Seleccione una opción</option>
+                  <option value="albacete">Albacete</option>
+                  <option value="alcoy">Alcoy</option>
+                  <option value="almeria">Almería</option>
+                  <option value="barcelona">Barcelona</option>
+                  <option value="bielsa">Bielsa</option>
+                  <option value="brihuega">Brihuega</option>
+                  <option value="caceres">Cáceres</option>
+                  <option value="caminreal">Caminreal</option>
+                  <option value="cerler">Cerler</option>
+                  <option value="cordoba">Córdoba</option>
+                  <option value="elpuerto">El Puerto de Santa María</option>
+                  <option value="figueres">Figueres</option>
+                  <option value="granada">Granada</option>
+                  <option value="huelva">Huelva</option>
+                  <option value="jerez">Jerez de la Frontera</option>
+                  <option value="laredo">Laredo</option>
+                  <option value="linares">Linares</option>
+                  <option value="madrid">Madrid</option>
+                  <option value="malaga">Málaga</option>
+                  <option value="murcia">Murcia</option>
+                  <option value="novara">Novara</option>
+                  <option value="oviedo">Oviedo</option>
+                  <option value="pamplona">Pamplona</option>
+                  <option value="pal">Pal</option>
+                  <option value="poio">Poio</option>
+                  <option value="santander">Santander</option>
+                  <option value="soria">Soria</option>
+                  <option value="vigo">Vigo</option>
+                  <option value="valladolid">Valladolid</option>
+                  <option value="zaragoza">Zaragoza</option>
+               </select>
+            </p>
+            <p>
+               <label>¿Qué tipo de etapa era?</label>
+               <br />
+               <input type="radio" id="tipoLlana" name="tipoEtapa" value="llana" />
+               <label for="tipoLlana">Llana</label>
+               <br />
+               <input type="radio" id="tipoMediaMontana" name="tipoEtapa" value="media-montana" />
+               <label for="tipoMediaMontana">Media montaña</label>
+               <br />
+               <input type="radio" id="tipoMontana" name="tipoEtapa" value="montana" />
+               <label for="tipoMontana">Montaña</label>
+               <br />
+               <input type="radio" id="tipoCRI" name="tipoEtapa" value="contrarreloj-individual" />
+               <label for="tipoCRI">Contrarreloj individual</label>
+               <br />
+               <input type="radio" id="tipoCRT" name="tipoEtapa" value="contrarreloj-equipos" />
+               <label for="tipoCRT">Contrarreloj por equipos</label>
+            </p>
+            <p>
+               <label>¿Qué hitos estaban presentes en la etapa?</label>
+               <br />
+               <input type="checkbox" id="puertoMontana" name="hitos" value="puerto-montana" />
+               <label for="puertoMontana">Puerto de montaña</label>
+               <br />
+               <input type="checkbox" id="puertoEspecial" name="hitos" value="puerto-especial" />
+               <label for="puertoEspecial">Puerto categoría especial</label>
+               <br />
+               <input type="checkbox" id="sprintIntermedio" name="hitos" value="sprint-intermedio" />
+               <label for="sprintIntermedio">Sprint intermedio</label>
+               <br />
+               <input type="checkbox" id="sprintBonificado" name="hitos" value="sprint-bonificado" />
+               <label for="sprintBonificado">Sprint bonificado</label>
+               <br />
+               <input type="checkbox" id="sinHitos" name="hitos" value="sin-hitos" />
+               <label for="sinHitos">Sin hitos</label>
+            </p>
+            <p>
+               <label for="durezaEtapa">¿Cuánto valorarías la dureza de la etapa?</label>
+               <input type="range" id="durezaEtapa" min="1" max="10" value="5" />
+            </p>
+            <p>
+               <label for="longitudEtapa">¿Cuál es la longitud de la etapa en kilómetros?</label>
+               <input type="number" id="longitudEtapa" min="0" step="0.1" />
+            </p>
+            <p>
+               <label for="desnivelEtapa">¿Cuál es el desnivel acumulado de la etapa?</label>
+               <input type="number" id="desnivelEtapa" min="0" step="1" />
+            </p>
+            <p>
+               <label for="descripcionEtapa">Describe brevemente la etapa:</label>
+               <textarea id="descripcionEtapa" rows="4" cols="50"></textarea>
+            </p>
+            <p>
+               <label for="nombreParticipante">¿Cuál es tu nombre?</label>
+               <input type="text" id="nombreParticipante" />
+            </p>
+            <button type="submit">Enviar respuestas</button>
+         </fieldset>
+      </form>
+   </main>
+   <!-- contenido de juegos.html  -->
+    
+   <footer>
+      <p>Rodrigo García López</p>
+      <address>
+         <a href="mailto:UO300548@uniovi.es">UO300548@uniovi.es</a>
+      </address>
+   </footer>
+</body>
+</html>

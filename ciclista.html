@@ -1,0 +1,129 @@
+<!DOCTYPE HTML>
+
+<html lang="es">
+<head>
+    <!-- Datos que describen el documento -->
+    <meta charset="UTF-8" />
+    <title>LaVuelta2026:Ciclista</title>
+
+    <meta name="author" content="Rodrigo García López" />
+    <meta name="description" content="Documento ciclista.html del proyecto LaVuelta2026" />
+    
+    <meta name ="viewport" content ="width=device-width, initial-scale=1.0" />
+
+    <!--Enlace a las hojas de estilo-->
+    <link rel="stylesheet" type="text/css" href="estilo/estilo.css" />
+    <link rel="stylesheet" type="text/css" href="estilo/layout.css" />
+    <link rel="icon" href="multimedia/favicon.ico" type="image/x-icon" />
+</head>
+
+<body>
+   <header>
+      <h1><a href="index.html">LaVuelta2026</a></h1>
+      <nav>
+         <a href="index.html" title="Página principal del proyecto">Inicio</a>
+         <a href="ciclista.html" title="Información del ciclista destacado" aria-current="page">Ciclista</a>
+         <a href="equipo.html" title="Detalles del equipo participante">Equipo</a>
+         <a href="etapa.html" title="Datos de la etapa">Etapa</a>
+         <a href="meteorologia.html" title="Pronóstico meteorológico de la carrera">Meteorología</a>
+         <a href="clasificaciones.html" title="Clasificaciones generales y por etapa">Clasificaciones</a>
+         <a href="juegos.html" title="Juego del proyecto">Juegos</a>
+         <a href="ayuda.html" title="Página de ayuda e información adicional">Ayuda</a>
+      </nav>
+   </header>
+   <nav aria-label="migas">
+      <ol>
+         <li><a href="index.html">Inicio >></a></li>
+         <li>Ciclista</li>
+      </ol>
+   </nav>
+   <main>
+      <h2>Rudy Molard</h2>
+      <section>
+         <h3>Datos personales</h3>
+         <ul>
+            <li>Rudy Molard</li>
+            <li>17 de septiembre de 1989</li>
+            <li>Francia</li>
+            <li>GROUPAMA-FDJ UNITED</li>
+            <li>95</li>
+         </ul>
+         <picture>
+            <source srcset="multimedia/rudyMolard_movil.png" media="(max-width: 768px)" width="127" height="255" />
+            <source srcset="multimedia/rudyMolard_tablet.png" media="(max-width: 1024px)" width="300" height="255" />
+            <img src="multimedia/rudyMolard.png" 
+            alt="Retrato de Rudy Molard, ciclista profesional francés del equipo GROUPAMA-FDJ UNITED" width="300" height="455" />
+         </picture>
+      </section>
+      <section>
+         <h3>Datos equipos</h3>
+         <ol>
+            <li>Groupama - FDJ United</li>
+            <li>Groupama - FDJ</li>
+            <li>FDJ</li>
+            <li>Cofidis, Solutions Crédits</li>
+            <li>Cofidis, le Crédit en Ligne</li>
+            <li>CR4C Roanne</li>
+         </ol>
+      </section>
+      <section>
+         <h3>Multimedia</h3>
+         <p>Equipo <a href="https://www.lavuelta.es/es/equipo/GFC/groupama-fdj-united">GROUPAMA-FDJ UNITED</a> 
+            en la Vuelta Ciclista a España 2026.</p>
+         <video controls poster="multimedia/poster_video.png">
+            <source src="multimedia/video_presentacion.webm" type="video/webm" />
+            <source src="multimedia/video_presentacion.mp4" type="video/mp4" />
+         </video>
+         <audio controls>
+            <source src="multimedia/audio_equipo.mp3" type="audio/mpeg" />
+            <source src="multimedia/audio_equipo.wav" type="audio/wav" />
+         </audio>
+      </section>
+      <section>
+         <h3>Temporada 2025</h3>
+         <table>
+            <tr>
+               <th id="recorrido" scope="col">Recorrido</th>
+               <th id="puesto-molard" scope="col">Puesto de Molard</th>
+            </tr>
+            
+            <tr>
+               <td headers="recorrido">San Maurizio Canavese – Ceres</td>
+               <td headers="puesto-molard">22.º</td>
+            </tr>
+            
+            <tr>
+               <td headers="recorrido">Monzón Templario – Zaragoza</td>
+               <td headers="puesto-molard">97.º</td>
+            </tr>
+            <tr>
+               <td headers="recorrido">Alfaro – Valdezcaray</td>
+               <td headers="puesto-molard">33.º</td>
+            </tr>
+            <tr>
+               <td headers="recorrido">Sendaviva – Larra-Belagua</td>
+               <td headers="puesto-molard">29.º</td>
+            </tr>
+            
+            <tr>
+               <td headers="recorrido">Laredo – Los Corrales de Buelna</td>
+               <td headers="puesto-molard">28.º</td>
+            </tr>
+            <tr>
+               <td headers="recorrido">Cabezón de la Sal – L'Angliru</td>
+               <td headers="puesto-molard">33.º</td>
+            </tr>
+         </table>
+      </section>
+   </main>
+   
+   <!-- contenido de ciclista.html  -->
+    
+   <footer>
+      <p>Rodrigo García López</p>
+      <address>
+         <a href="mailto:UO300548@uniovi.es">UO300548@uniovi.es</a>
+      </address>
+   </footer>
+</body>
+</html>
