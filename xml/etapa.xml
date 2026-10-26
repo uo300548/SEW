@@ -1,0 +1,292 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE etapa SYSTEM "etapa.dtd">
+<etapa tipo="contrarreloj individual">
+  <nombre>El Puerto de Santa María a Jerez de la Frontera</nombre>
+  <numero>18</numero>
+  <longitud_km unidad="km">32.1</longitud_km>
+  <fecha>2026-09-10</fecha>
+  <tiempo_ganador>PT35M22S</tiempo_ganador>
+  <velocidad_media unidad="km/h">54.4</velocidad_media>
+  <desnivel_m unidad="m">217</desnivel_m>
+
+  <salida>
+    <lugar>
+      <nombre_lugar>Plaza de Toros de El Puerto de Santa María</nombre_lugar>
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.23287</coord_longitud>
+        <coord_latitud unidad="deg">36.59689</coord_latitud>
+        <coord_altitud unidad="m">13</coord_altitud>
+      </coordenadas>
+    </lugar>
+  </salida>
+
+  <llegada>
+    <lugar>
+      <nombre_lugar>Jerez de la Frontera, zona de Avenida Alcalde Álvaro Domecq</nombre_lugar>
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.13173</coord_longitud>
+        <coord_latitud unidad="deg">36.69233</coord_latitud>
+        <coord_altitud unidad="m">45</coord_altitud>
+      </coordenadas>
+    </lugar>
+  </llegada>
+
+  <referencias>
+    <referencia>La Vuelta - Etapa 18 El Puerto de Santa María a Jerez de la Frontera - https://www.lavuelta.es/es/etapa-18</referencia>
+    <referencia>La Vuelta - Clasificaciones oficiales de la etapa 18 - https://www.lavuelta.es/es/clasificaciones/etapa-18</referencia>
+    <referencia>La Vuelta - Recorrido de la etapa 18 - https://www.lavuelta.es/es/recorrido/etapa-18</referencia>
+  </referencias>
+
+  <galeria_fotos>
+    <foto ruta="Puerto_Santa_Maria.jpg">Salida de la etapa en El Puerto de Santa María</foto>
+    <foto ruta="Jerez_Frontera.jpg">Llegada en Jerez de la Frontera</foto>
+    <foto ruta="Crono_Stage18.jpg">Contrarreloj individual de la etapa 18</foto>
+  </galeria_fotos>
+
+  <galeria_videos>
+    <video ruta="Resumen_Etapa18.mp4">Resumen de la etapa 18 de La Vuelta 2026</video>
+  </galeria_videos>
+
+  <galeria_sonidos>
+    <sonido ruta="Podcast_Etapa18.mp3">Podcast sobre la etapa 18 de La Vuelta 2026</sonido>
+  </galeria_sonidos>
+
+  <hitos />
+
+  <puntos_anonimos>
+    <punto nombre="Corner 1">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.233140</coord_longitud>
+        <coord_latitud unidad="deg">36.596555</coord_latitud>
+        <coord_altitud unidad="m">13</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">0</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 2">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.224500</coord_longitud>
+        <coord_latitud unidad="deg">36.603800</coord_latitud>
+        <coord_altitud unidad="m">24</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">1.6</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 3">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.214000</coord_longitud>
+        <coord_latitud unidad="deg">36.612900</coord_latitud>
+        <coord_altitud unidad="m">30</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">3.9</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 4">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.203000</coord_longitud>
+        <coord_latitud unidad="deg">36.621500</coord_latitud>
+        <coord_altitud unidad="m">38</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">6.1</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 5">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.190000</coord_longitud>
+        <coord_latitud unidad="deg">36.630000</coord_latitud>
+        <coord_altitud unidad="m">47</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">8.7</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 6">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.175000</coord_longitud>
+        <coord_latitud unidad="deg">36.636570</coord_latitud>
+        <coord_altitud unidad="m">56</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">10.7</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 7">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.133080</coord_longitud>
+        <coord_latitud unidad="deg">36.636570</coord_latitud>
+        <coord_altitud unidad="m">69</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">16.2</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 8">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.121000</coord_longitud>
+        <coord_latitud unidad="deg">36.643000</coord_latitud>
+        <coord_altitud unidad="m">78</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">18.5</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 9">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.110000</coord_longitud>
+        <coord_latitud unidad="deg">36.650000</coord_latitud>
+        <coord_altitud unidad="m">82</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">20.4</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 10">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.100000</coord_longitud>
+        <coord_latitud unidad="deg">36.660000</coord_latitud>
+        <coord_altitud unidad="m">90</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">22.1</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 11">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.090000</coord_longitud>
+        <coord_latitud unidad="deg">36.670000</coord_latitud>
+        <coord_altitud unidad="m">98</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">23.8</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 12">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.082000</coord_longitud>
+        <coord_latitud unidad="deg">36.678000</coord_latitud>
+        <coord_altitud unidad="m">105</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">25.4</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 13">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.075270</coord_longitud>
+        <coord_latitud unidad="deg">36.684950</coord_latitud>
+        <coord_altitud unidad="m">112</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">26.7</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 14">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.092000</coord_longitud>
+        <coord_latitud unidad="deg">36.684000</coord_latitud>
+        <coord_altitud unidad="m">109</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">25.8</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 15">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.105000</coord_longitud>
+        <coord_latitud unidad="deg">36.690000</coord_latitud>
+        <coord_altitud unidad="m">103</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">27.2</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 16">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.120000</coord_longitud>
+        <coord_latitud unidad="deg">36.693000</coord_latitud>
+        <coord_altitud unidad="m">82</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">28.9</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 17">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.135000</coord_longitud>
+        <coord_latitud unidad="deg">36.694000</coord_latitud>
+        <coord_altitud unidad="m">60</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">30.5</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 18">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.145000</coord_longitud>
+        <coord_latitud unidad="deg">36.693000</coord_latitud>
+        <coord_altitud unidad="m">54</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">31.6</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 19">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.140000</coord_longitud>
+        <coord_latitud unidad="deg">36.692000</coord_latitud>
+        <coord_altitud unidad="m">49</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">31.9</distancia_km>
+    </punto>
+
+    <punto nombre="Corner 20">
+      <coordenadas>
+        <coord_longitud unidad="deg">-6.133000</coord_longitud>
+        <coord_latitud unidad="deg">36.692000</coord_latitud>
+        <coord_altitud unidad="m">45</coord_altitud>
+      </coordenadas>
+      <distancia_km unidad="km">32.1</distancia_km>
+    </punto>
+  </puntos_anonimos>
+
+  <clasificacion_etapa>
+    <primero>
+      <nombre_corredor>Stefan Küng</nombre_corredor>
+      <equipo>Tudor Pro Cycling Team</equipo>
+      <tiempo>PT35M22S</tiempo>
+    </primero>
+    <segundo>
+      <nombre_corredor>Callum Thornley</nombre_corredor>
+      <equipo>Team Picnic PostNL</equipo>
+      <tiempo>PT35M25S</tiempo>
+      <diferencia>PT3S</diferencia>
+    </segundo>
+    <tercero>
+      <nombre_corredor>João Almeida</nombre_corredor>
+      <equipo>UAE Team Emirates-XRG</equipo>
+      <tiempo>PT35M31S</tiempo>
+      <diferencia>PT9S</diferencia>
+    </tercero>
+  </clasificacion_etapa>
+
+  <clasificacion_general>
+    <primero>
+      <nombre_corredor>Enric Mas</nombre_corredor>
+      <equipo>Movistar Team</equipo>
+      <tiempo>PT60H45M58S</tiempo>
+    </primero>
+    <segundo_general>
+      <nombre_corredor>Primož Roglič</nombre_corredor>
+      <equipo>Red Bull-Bora-Hansgrohe</equipo>
+      <diferencia>PT1H37M</diferencia>
+    </segundo_general>
+    <tercero_general>
+      <nombre_corredor>Félix Gall</nombre_corredor>
+      <equipo>Decathlon AG2R La Mondiale</equipo>
+      <diferencia>PT3M1S</diferencia>
+    </tercero_general>
+  </clasificacion_general>
+
+  <clasificacion_equipos>
+    <primero_equipo>
+      <nombre_equipo>UAE Team Emirates-XRG</nombre_equipo>
+      <tiempo>PT186H45M58S</tiempo>
+    </primero_equipo>
+    <segundo_equipo>
+      <nombre_equipo>Red Bull-Bora-Hansgrohe</nombre_equipo>
+      <tiempo>PT186H47M35S</tiempo>
+      <diferencia>PT1M37S</diferencia>
+    </segundo_equipo>
+    <tercero_equipo>
+      <nombre_equipo>Movistar Team</nombre_equipo>
+      <tiempo>PT186H48M59S</tiempo>
+      <diferencia>PT3M1S</diferencia>
+    </tercero_equipo>
+  </clasificacion_equipos>
+</etapa>

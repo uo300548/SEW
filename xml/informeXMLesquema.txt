@@ -1,0 +1,34 @@
+Cambios realizados en etapa.xsd (resumen)
+
+1. Cambios de codificación
+Antes: el XSD estaba en Windows-1252 y con un namespace temporal (http://tempuri.org/etapa).
+Ahora: va en UTF-8 y usa el namespace de la universidad: http://www.uniovi.es.
+También se ha definido el prefijo por defecto con xmlns="http://www.uniovi.es" y elementFormDefault="qualified" 
+para que todos los elementos pertenezcan al mismo espacio de nombres.
+
+2. Cambios de tipos de datos
+Antes: casi todo era xs:string y algunos atributos eran simples CDATA/PCDATA.
+Ahora: se usan tipos XML Schema más específicos y útiles:
+- numero -> xs:positiveInteger (1..21)
+- fecha -> xs:date
+- longitud_km / distancia_km -> xs:decimal
+- coord_longitud / coord_latitud -> xs:decimal
+- coord_altitud -> xs:decimal
+- velocidad_media -> xs:decimal (con posible valor NO DISPONIBLE)
+- tiempo_ganador / tiempos / diferencias -> xs:duration (con posible valor NO DISPONIBLE)
+- atributos unidad -> ahora están fijados con valores concretos: deg, m, km, km/h
+
+3. Cambios de rangos y restricciones introducidas
+Antes: solo se controlaba la estructura con ?, +, * y enumeraciones básicas.
+Ahora se añaden restricciones reales:
+- numero entre 1 y 21
+- distancia/longitud entre 0 y 5000
+- latitud/longitud entre -180 y 180
+- altitud entre -200 y 9000
+- velocidad media entre 0 y 100
+- tipo de etapa: llana, montaña, contrarreloj individual, contrarreloj por equipos, media montaña
+- categoría puerto: 1a, 2a, 3a, especial, bonificado
+- tipo sprint: intermedio, bonificado
+- rutas de archivos: fotos .jpg/.png/.gif, videos .mp4/.avi/.mkv, sonidos .mp3/.wav/.ogg
+- cardinalidades: referencias mínimo 3; fotos 1..5; videos 1..3; sonidos 1..3; puntos_anonimos opcional pero si existe al menos 1
+

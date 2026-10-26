@@ -1,0 +1,349 @@
+<?xml version='1.0' encoding='utf-8'?>
+<kml xmlns="http://www.opengis.net/kml/2.2">
+  <Document>
+    <name>Etapa 18: El Puerto de Santa María a Jerez de la Frontera</name>
+    <Placemark>
+      <name>Salida</name>
+      <description>Plaza de Toros de El Puerto de Santa María</description>
+      <Point>
+        <coordinates>-6.23287,36.59689,13.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Meta</name>
+      <description>Jerez de la Frontera, zona de Avenida Alcalde Álvaro Domecq</description>
+      <Point>
+        <coordinates>-6.13173,36.69233,45.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff0000ff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 1</name>
+      <description>Distancia 0 km</description>
+      <Point>
+        <coordinates>-6.23314,36.596555,13.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 2</name>
+      <description>Distancia 1.6 km</description>
+      <Point>
+        <coordinates>-6.2245,36.6038,24.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 3</name>
+      <description>Distancia 3.9 km</description>
+      <Point>
+        <coordinates>-6.214,36.6129,30.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 4</name>
+      <description>Distancia 6.1 km</description>
+      <Point>
+        <coordinates>-6.203,36.6215,38.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 5</name>
+      <description>Distancia 8.7 km</description>
+      <Point>
+        <coordinates>-6.19,36.63,47.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 6</name>
+      <description>Distancia 10.7 km</description>
+      <Point>
+        <coordinates>-6.175,36.63657,56.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 7</name>
+      <description>Distancia 16.2 km</description>
+      <Point>
+        <coordinates>-6.13308,36.63657,69.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 8</name>
+      <description>Distancia 18.5 km</description>
+      <Point>
+        <coordinates>-6.121,36.643,78.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 9</name>
+      <description>Distancia 20.4 km</description>
+      <Point>
+        <coordinates>-6.11,36.65,82.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 10</name>
+      <description>Distancia 22.1 km</description>
+      <Point>
+        <coordinates>-6.1,36.66,90.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 11</name>
+      <description>Distancia 23.8 km</description>
+      <Point>
+        <coordinates>-6.09,36.67,98.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 12</name>
+      <description>Distancia 25.4 km</description>
+      <Point>
+        <coordinates>-6.082,36.678,105.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 13</name>
+      <description>Distancia 26.7 km</description>
+      <Point>
+        <coordinates>-6.07527,36.68495,112.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 14</name>
+      <description>Distancia 25.8 km</description>
+      <Point>
+        <coordinates>-6.092,36.684,109.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 15</name>
+      <description>Distancia 27.2 km</description>
+      <Point>
+        <coordinates>-6.105,36.69,103.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 16</name>
+      <description>Distancia 28.9 km</description>
+      <Point>
+        <coordinates>-6.12,36.693,82.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 17</name>
+      <description>Distancia 30.5 km</description>
+      <Point>
+        <coordinates>-6.135,36.694,60.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 18</name>
+      <description>Distancia 31.6 km</description>
+      <Point>
+        <coordinates>-6.145,36.693,54.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 19</name>
+      <description>Distancia 31.9 km</description>
+      <Point>
+        <coordinates>-6.14,36.692,49.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Corner 20</name>
+      <description>Distancia 32.1 km</description>
+      <Point>
+        <coordinates>-6.133,36.692,45.0</coordinates>
+      </Point>
+      <Style>
+        <IconStyle>
+          <color>ff00ffff</color>
+          <scale>1.2</scale>
+          <Icon />
+        </IconStyle>
+      </Style>
+    </Placemark>
+    <Placemark>
+      <name>Recorrido de la etapa</name>
+      <LineString>
+        <extrude>1</extrude>
+        <tessellate>1</tessellate>
+        <coordinates>-6.23287,36.59689,13.0
+-6.23314,36.596555,13.0
+-6.2245,36.6038,24.0
+-6.214,36.6129,30.0
+-6.203,36.6215,38.0
+-6.19,36.63,47.0
+-6.175,36.63657,56.0
+-6.13308,36.63657,69.0
+-6.121,36.643,78.0
+-6.11,36.65,82.0
+-6.1,36.66,90.0
+-6.09,36.67,98.0
+-6.082,36.678,105.0
+-6.07527,36.68495,112.0
+-6.092,36.684,109.0
+-6.105,36.69,103.0
+-6.12,36.693,82.0
+-6.135,36.694,60.0
+-6.145,36.693,54.0
+-6.14,36.692,49.0
+-6.133,36.692,45.0
+-6.13173,36.69233,45.0</coordinates>
+      </LineString>
+      <Style>
+        <LineStyle>
+          <color>ffffffff</color>
+          <width>4</width>
+        </LineStyle>
+      </Style>
+    </Placemark>
+  </Document>
+</kml>

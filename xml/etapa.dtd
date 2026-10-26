@@ -1,0 +1,84 @@
+<!ELEMENT etapa (nombre, numero, longitud_km, fecha, tiempo_ganador, velocidad_media, desnivel_m, salida, llegada, referencias, galeria_fotos, galeria_videos, galeria_sonidos, hitos, puntos_anonimos?, clasificacion_etapa, clasificacion_general, clasificacion_equipos)>
+<!ATTLIST etapa tipo CDATA #REQUIRED>
+
+<!ELEMENT nombre (#PCDATA)>
+<!ELEMENT numero (#PCDATA)>
+
+<!ELEMENT longitud_km (#PCDATA)>
+<!ATTLIST longitud_km unidad CDATA #REQUIRED>
+
+<!ELEMENT fecha (#PCDATA)>
+
+<!ELEMENT tiempo_ganador (#PCDATA)>
+
+<!ELEMENT velocidad_media (#PCDATA)>
+<!ATTLIST velocidad_media unidad CDATA #REQUIRED>
+
+<!ELEMENT desnivel_m (#PCDATA)>
+<!ATTLIST desnivel_m unidad CDATA #REQUIRED>
+
+<!ELEMENT salida (lugar)>
+<!ELEMENT llegada (lugar)>
+
+<!ELEMENT lugar (nombre_lugar, coordenadas)>
+<!ELEMENT nombre_lugar (#PCDATA)>
+
+<!ELEMENT coordenadas (coord_longitud, coord_latitud, coord_altitud)>
+<!ELEMENT coord_longitud (#PCDATA)>
+<!ATTLIST coord_longitud unidad CDATA #REQUIRED>
+<!ELEMENT coord_latitud (#PCDATA)>
+<!ATTLIST coord_latitud unidad CDATA #REQUIRED>
+<!ELEMENT coord_altitud (#PCDATA)>
+<!ATTLIST coord_altitud unidad CDATA #REQUIRED>
+
+<!ELEMENT referencias (referencia+)>
+<!ELEMENT referencia (#PCDATA)>
+
+<!ELEMENT galeria_fotos (foto+)>
+<!ELEMENT foto (#PCDATA)>
+<!ATTLIST foto ruta CDATA #REQUIRED>
+
+<!ELEMENT galeria_videos (video+)>
+<!ELEMENT video (#PCDATA)>
+<!ATTLIST video ruta CDATA #REQUIRED>
+
+<!ELEMENT galeria_sonidos (sonido+)>
+<!ELEMENT sonido (#PCDATA)>
+<!ATTLIST sonido ruta CDATA #REQUIRED>
+
+<!ELEMENT hitos (puertos?, sprints?)>
+
+<!ELEMENT puertos (puerto*)>
+<!ELEMENT puerto (nombre_puerto, coordenadas, distancia_km)>
+<!ATTLIST puerto categoria (1a|2a|3a|especial|bonificado) #REQUIRED>
+<!ELEMENT nombre_puerto (#PCDATA)>
+<!ELEMENT distancia_km (#PCDATA)>
+<!ATTLIST distancia_km unidad CDATA #REQUIRED>
+
+<!ELEMENT sprints (sprint*)>
+<!ELEMENT sprint (nombre_sprint, coordenadas, distancia_km)>
+<!ATTLIST sprint tipo (intermedio|bonificado) #REQUIRED>
+<!ELEMENT nombre_sprint (#PCDATA)>
+
+<!ELEMENT puntos_anonimos (punto+)>
+<!ELEMENT punto (coordenadas, distancia_km)>
+<!ATTLIST punto nombre CDATA #IMPLIED>
+
+<!ELEMENT clasificacion_etapa (primero, segundo, tercero)>
+<!ELEMENT primero (nombre_corredor, equipo, tiempo)>
+<!ELEMENT segundo (nombre_corredor, equipo, tiempo, diferencia)>
+<!ELEMENT tercero (nombre_corredor, equipo, tiempo, diferencia)>
+<!ELEMENT nombre_corredor (#PCDATA)>
+<!ELEMENT equipo (#PCDATA)>
+<!ELEMENT tiempo (#PCDATA)>
+<!ELEMENT diferencia (#PCDATA)>
+
+<!ELEMENT clasificacion_general (primero, segundo_general, tercero_general)>
+<!ELEMENT segundo_general (nombre_corredor, equipo, diferencia)>
+<!ELEMENT tercero_general (nombre_corredor, equipo, diferencia)>
+
+<!ELEMENT clasificacion_equipos (primero_equipo, segundo_equipo, tercero_equipo)>
+<!ELEMENT primero_equipo (nombre_equipo, tiempo)>
+<!ELEMENT segundo_equipo (nombre_equipo, tiempo, diferencia)>
+<!ELEMENT tercero_equipo (nombre_equipo, tiempo, diferencia)>
+<!ELEMENT nombre_equipo (#PCDATA)>
